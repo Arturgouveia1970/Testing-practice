@@ -1,0 +1,19 @@
+{
+  "name": "testing-practice",
+  "version": "1.0.0",
+  "description": "Testing-practice",
+  "main": "stringLength.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arturgouveia1970/Testing-practice.git"
+  },
+  "author": "Artur Gouveia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arturgouveia1970/Testing-practice/issues"
+  },
+  "homepage": "https://github.com/Arturgouveia1970/Testing-practice#readme"
+}
