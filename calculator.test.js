@@ -29,3 +29,33 @@ describe('divide test', () => {
     });
   
   });
+
+  describe('multiply test', () => {
+    test('3*7=21', () => {
+      expect(Calculator.multiply(3, 7)).toEqual(21);
+    });
+  
+    test('2*2=4', () => {
+      expect(Calculator.multiply(2, 2)).toEqual(4);
+    });
+  
+    test('5*5=2', () => {
+      expect(Calculator.multiply(5, 5)).not.toBe(2);
+    });
+  
+  });
+
+  describe('subtracte test', () => {
+    test('21-7=14', () => {
+      expect(Calculator.subtracte(21, 7)).toEqual(3+11);
+    });
+  
+    test('2-2=0', () => {
+      expect(Calculator.subtracte(2, 2)).toEqual(0);
+    });
+  
+    test('5-5=2', () => {
+      expect(Calculator.subtracte(5, 5)).not.toBe(2);
+    });
+  
+  });
